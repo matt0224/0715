@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%> 
 <%@ page errorPage="error.jsp" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
+ 
 <%-- redirect沒帶參數直接跳轉--%>
 <c:if test="${empty param.editid and empty param.id }"> 
 <c:redirect url="matt78.jsp"></c:redirect>
